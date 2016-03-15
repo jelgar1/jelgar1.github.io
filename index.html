@@ -1,23 +1,20 @@
 ---
-layout: default
+layout: homepage
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<h1 id="name">Jonathan Gardiner</h1>
+<div class="btn-wrap">
+  <!-- <a href="/blog" class="homepage-link">blog</a> -->
+  <a href="/projects" class="homepage-link">projects</a>
+  <a href="/cv" class="homepage-link">cv</a>
+  <a href="/about" class="homepage-link">about</a>
+</div>
+<br></br>
+<div class="bio"> <p>Hello, I'm Jonathan, I'm a full-stack developer based in London.</p>
+</div>
+<br></br>
+<div class="social">
+  <a href="https://github.com/jelgar1"><img class="social-btns" src="images/github-circled.svg" alt="github"></a>
+  <a href="https://twitter.com/thejongardiner"><img class="social-btns" src="images/twitter_btn.png" alt="twitter"></a>
+  <a href="mailto:jonathanelgardiner@gmail.com"><img class="social-btns" src="images/mail-icon.png" alt="email"></a>
 </div>

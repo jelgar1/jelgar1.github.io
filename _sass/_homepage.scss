@@ -1,0 +1,71 @@
+@font-face {
+    font-family: kankin;
+    src: url(../fonts/Kankin.ttf);
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url(../fonts/Pacifico.ttf);
+}
+
+body {
+  color: black;
+  font-family: Cornerstone;
+  text-align: center;
+  background: url("../images/forest-background.jpeg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#name {
+  font-size: 4rem;
+  padding-top: 12%;
+  color: #006666;
+}
+
+.bio {
+  // border: 1px solid black;
+  padding: 1%;
+  // background-color: grey;
+  // opacity: 0.8;
+  font-family: pacifico, londrina solid, futura;
+  color: black;
+}
+
+.homepage-link {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1%;
+  margin: .7%;
+  font-size: 1.5rem;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+.social-btns {
+  height: 70px;
+  width: auto;
+  padding: 1%;
+
+  -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+.social-btns:hover {
+  -webkit-transform: rotate(-15deg);
+   -moz-transform: rotate(-15deg);
+     -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+}
